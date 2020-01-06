@@ -1,0 +1,139 @@
+@import url(../css/style.css);
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=korean");
+@import url(../vendor/normalize.css);
+@import url(../vendor/bootstrap.min.css);
+@import url(../vendor/all.css);
+@import url(../icomoon-hp/style.css);
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap");
+body {
+  font-family: "Raleway", "Noto Sans KR", Sans-Serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3B4859;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  direction: ltr;
+  line-height: 1.45s; }
+
+.d-table {
+  display: table; }
+
+.d-table-cell {
+  display: table-cell; }
+
+.w-100 {
+  width: 100%; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  letter-spacing: -1px; }
+
+.text-body {
+  color: #3B4859; }
+
+.text-bodyLight {
+  color: #9BA3AD; }
+
+.font-weight-bold {
+  font-weight: 700; }
+
+.font-weight-bolder {
+  font-weight: 600; }
+
+.font-weight-normal {
+  font-weight: 500 !important; }
+
+.font-weight-light {
+  font-weight: 400; }
+
+.d-flex, #header .nav-link {
+  display: flex; }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.flex-fill {
+  -ms-flex: 1 1 auto !important;
+  flex: 1 1 auto !important; }
+
+.justify-content-center {
+  display: flex;
+  justify-content: center; }
+
+.align-items-center, #header .nav-link {
+  display: flex;
+  align-items: center; }
+
+.align-items-end {
+  display: flex;
+  align-items: flex-end; }
+
+.align-content-between {
+  display: flex;
+  align-content: space-between !important;
+  flex-wrap: wrap; }
+
+.align-items-stretch {
+  align-items: stretch !important;
+  display: flex; }
+
+.align-self-center {
+  -ms-flex-item-align: center !important;
+  align-self: center !important; }
+
+.col-between {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap; }
+
+.btn-transparent, #content-tab .nav-link:hover {
+  background-color: transparent; }
+
+.border-0, .guide-card {
+  border: none; }
+
+.btn-transparent, #content-tab .nav-link:hover {
+  background-color: transparent !important; }
+  .btn-transparent:hover, #content-tab .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important; }
+
+.btn-sm, #content-tab .nav-link {
+  padding: .25rem .5rem !important;
+  font-size: .875rem !important;
+  line-height: 1.5 !important;
+  border-radius: .2rem !important; }
+
+.no-gutters-sm {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem; }
+
+.spacer-xs {
+  height: 0.5rem; }
+
+.spacer-sm {
+  height: 1rem; }
+
+.spacer-md {
+  height: 1.5rem; }
+
+.spacer-lg {
+  height: 2rem; }
+
+.spacer-xl {
+  height: 2.5rem; }
+
+#header .nav-link {
+  height: 70px; }
+
+#content-tab .nav-link {
+  color: #3B4859; }
+
+.guide-card {
+  height: 50px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.31) 0px 0px 1px 0px;
+  transition: box-shadow 0.25s ease-in-out 0s; }
+  .guide-card:hover {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 8px 16px -4px, rgba(9, 30, 66, 0.31) 0px 0px 1px; }

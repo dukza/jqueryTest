@@ -1,0 +1,172 @@
+@import './short.scss';
+@import '../css/style.css';
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=korean');
+
+body{
+  font-family:$font-family;
+  font-weight: $font-weight-light;
+  font-size:$font-body;
+  color: $color-body;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  direction: ltr;
+  line-height: 1.45s;
+}
+.d-table{
+  display: table;
+}
+.d-table-cell{
+  display: table-cell;
+
+}
+.w-100{
+  width: 100%;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+  font-weight: $font-weight-light;
+  letter-spacing: -1px;
+}
+//.h1{
+//  font-size: $h1;
+//}
+//.h2{
+//  font-size: $h2;
+//}
+//.h3{
+//  font-size: $h3;
+//}
+//.h4{
+//  font-size: $h4;
+//}
+//.h5{
+//  font-size: $h5;
+//}
+//.h6{
+//  font-size: $h6;
+//}
+//.h7{
+//  font-size: $h7;
+//}
+//.h8{
+//  font-size: $h8;
+//}
+//.h9{
+//  font-size: $h9;
+//}
+
+
+.text-body{
+  color: $color-body;
+}
+.text-bodyLight{
+  color: $color-bodyLight;
+}
+
+.font-weight-bold{
+  font-weight:$font-weight-bold;
+}
+.font-weight-bolder{
+  font-weight:$font-weight-bolder;
+}
+.font-weight-normal{
+  font-weight:$font-weight-normal !important;
+}
+.font-weight-light{
+  font-weight:$font-weight-light;
+}
+
+
+// 수직가운
+// align-items-center
+
+// 플렉스
+.d-flex{
+  display: flex;
+}
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-fill {
+  -ms-flex: 1 1 auto !important;
+  flex: 1 1 auto!important;
+}
+// 수직
+.justify-content-center{
+  display: flex;
+  justify-content:center;
+}
+.align-items-center{
+  display: flex;
+  align-items:center;
+}
+.align-items-end{
+  display: flex;
+  align-items:flex-end;
+}
+.align-content-between{
+  display: flex;
+  align-content: space-between !important;
+  flex-wrap:wrap;
+}
+.align-items-stretch{
+  align-items: stretch!important;
+  display: flex;
+}
+.align-self-center{
+  -ms-flex-item-align: center!important;
+  align-self: center!important;
+}
+.col-between{
+  display: flex;
+  align-content: space-between;
+  flex-wrap:wrap;
+}
+
+.btn-transparent{
+  background-color: transparent;
+}
+
+.border-0{
+  border: none;
+}
+
+//버튼
+.btn-transparent{
+  background-color: transparent !important;
+  &:hover{
+    background-color: $color-black-light !important;
+  }
+}
+
+.btn{
+  &-sm{
+    padding: .25rem .5rem !important;
+    font-size: .875rem !important;
+    line-height: 1.5 !important;
+    border-radius: .2rem !important;
+  }
+}
+//그리드
+.no-gutters-sm {
+  margin-right: $spacer*2;
+  margin-left: $spacer*2;
+}
+
+//공간
+.spacer-xs{
+  height: $spacer*2;
+}
+.spacer-sm{
+  height: $spacer*4;
+}
+.spacer-md{
+  height: $spacer*6;
+}
+.spacer-lg{
+  height: $spacer*8;
+}
+.spacer-xl{
+  height: $spacer*10;
+}
