@@ -1,0 +1,37 @@
+@font-face {
+	font-family:'aritadm-lighter';
+	src: url('../fonts/AritaDotum/AritaDotumLight.eot');
+	src: local(※), url('../fonts/AritaDotum/AritaDotumLight.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AritaDotum/AritaDotumLight.woff') format('woff'),
+	url('../fonts/AritaDotum/AritaDotumLight.ttf') format('truetype');
+	font-weight: lighter;
+	font-style: lighter;
+}
+@font-face {
+	font-family:'aritadm';
+	src: url('../fonts/AritaDotum/AritaDotumMedium.eot');
+	src: local(※), url('../fonts/AritaDotum/AritaDotumMedium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AritaDotum/AritaDotumMedium.woff') format('woff'),
+	url('../fonts/AritaDotum/AritaDotumMedium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:'aritadm-bolder';
+	src: url('../fonts/AritaDotum/AritaDotumSemiBold.eot');
+	src: local(※), url('../fonts/AritaDotum/AritaDotumSemiBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AritaDotum/AritaDotumSemiBold.woff') format('woff'),
+	url('../fonts/AritaDotum/AritaDotumSemiBold.ttf') format('truetype');
+	font-weight: bolder;
+	font-style: bolder;
+}
+@font-face {
+	font-family:'aritadm-bold';
+	src: url('../fonts/AritaDotum/AritaDotumBold.eot');
+	src: local(※), url('../fonts/AritaDotum/AritaDotumBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AritaDotum/AritaDotumBold.woff') format('woff'),
+	url('../fonts/AritaDotum/AritaDotumBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: bold;
+}
+

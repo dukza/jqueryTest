@@ -1,0 +1,253 @@
+@import 'short.scss';
+@import 'style.css';
+// @import 'font-event.css';
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=korean');
+// 공통
+body{
+  font-family:$font-family;
+  font-weight: $font-weight-light;
+  font-size:14px;
+  color: $color-body;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  direction: ltr;
+  line-height: 1.45s;
+}
+@media (min-width: 1200px){
+  .container {
+    max-width: 1080px;
+  }
+}
+// 디스플레이
+.d{
+  &-flex{
+    display: flex;
+  }
+  &-table{
+  display: table;
+  box-sizing: border-box;
+  border-spacing: 10px 0;  
+  width: 100%;  
+  table-layout: fixed;
+  height: 100%;  
+    .d-cell{
+      display: table-cell;
+    }
+  }
+}
+
+// 사이즈
+.w-100{
+  width: 100%;
+}
+// 폰트
+.h{
+  &8, h8{
+    font-size:12px;
+    display: block;
+
+  }
+}
+.text{
+  &-body{
+    color: $color-body;
+  }
+  &-gray{
+    color:$color-gray;
+  }
+}
+
+.font{
+  &-weight-bold{
+    font-weight:$font-weight-bold;
+  }
+  &-weight-bolder{
+    font-weight:$font-weight-bolder;
+  }
+  &-weight-normal{
+    font-weight:$font-weight-normal !important;
+  }
+  &-weight-light{
+    font-weight:$font-weight-light;
+  }  
+}
+.font{
+  &-evnet{font-family:'aritadm','Raleway' !important;}
+}
+
+
+// 수직가운
+// align-items-center
+
+// 플렉스
+.flex-fill {
+  -ms-flex: 1 1 auto !important;
+  flex: 1 1 auto!important;
+}
+// 수직
+.justify-content-center{
+  display: flex;
+  justify-content:center;
+}
+.align-items-center{
+  display: flex;
+  align-items:center;
+}
+.align-items-end{
+  display: flex;
+  align-items:flex-end;
+}
+.align-content-between{
+  display: flex;
+  align-content: space-between !important;
+  flex-wrap:wrap;
+}
+.align-items-stretch{
+  align-items: stretch!important;
+  display: flex;
+}
+.align-self-center{
+  -ms-flex-item-align: center!important;
+  align-self: center!important;
+}
+.col-between{
+  display: flex;
+  align-content: space-between;
+  flex-wrap:wrap;
+}
+
+// 보더
+.border-0{
+  border: none;
+}
+
+// 라운드
+.rouneded{
+  border-radius: $spacer;
+}
+
+// 배경
+.bg{
+  &-light{
+    background-color: #f8f9fa;
+  }
+  &-transparent{
+    background-color: transparent;
+  }
+}
+
+// 색상
+
+.bg-gray-100{
+  background-color: $gray-100;
+}
+
+//버튼
+.btn{
+  &-sm{
+    padding: .25rem .5rem !important;
+    font-size: .875rem !important;
+    line-height: 1.5 !important;
+    border-radius: .2rem !important;
+  }
+  &-transparent{
+    @extend .bg-transparent;
+    @extend .border-0;
+    &:hover{
+      background-color: $color-black-light !important;
+    }
+  }
+}
+
+//그리드
+.no-gutters-sm {
+  margin-right: $spacer*2;
+  margin-left: $spacer*2;
+}
+
+$list-padding-left:1.5rem;
+//리스트
+.list{
+  &-check{
+    list-style-type: none !important;
+    box-sizing: border-box;
+    li{
+      list-style: none !important;
+      background: url('../images/icon-check.png') 4px 5px;
+      background-repeat: no-repeat;
+      padding-left: 24px;
+    }
+  }
+  &-disc{
+    box-sizing: border-box;
+    padding-left: $list-padding-left!important;
+    li{
+      list-style: disc !important;
+    }
+  }
+  &-square{
+    box-sizing: border-box;
+    padding-left: $list-padding-left!important;
+    li{
+      list-style: square !important;
+    }
+  }  
+  &-counter-bracket{
+    counter-reset: section;
+    list-style-type: none;
+    padding-left: $list-padding-left!important;
+    li::before , li:before{
+      counter-increment: section;
+      content: "("counter(section) ")";
+      font-weight: $font-weight-bolder;
+      margin-left: -2.3rem;
+      width: 2rem;
+      position: absolute;
+      text-align: right;
+    }
+  }
+  &-counter{
+    counter-reset: section;
+    list-style-type: none;
+    padding-left: $list-padding-left!important;
+    li::before , li:before{
+      counter-increment: section;
+      content: counter(section)".";
+      font-weight: $font-weight-bolder;
+      margin-left: -2.4rem;
+      width: 2rem;
+      position: absolute;
+      text-align: right;
+    }
+  }  
+}
+
+//공간
+// $spacer:1rem;
+//mt-3:margin-top:1rem;
+.spacer{
+  &-xs{
+    height: $spacer*0.5;
+  }
+  &-sm{
+    height: $spacer*1;
+  }
+  &-sm-l{
+    margin-left: $spacer*1.5;
+  }
+  &-md{
+    height: $spacer*2;
+  }
+  &-lg{
+    height: $spacer*2.5;
+  }
+  &-xl{
+    height: $spacer*3;
+  }
+  &-list{
+    li{
+      padding-bottom: $spacer*0.25;
+    }
+  }
+}
+
