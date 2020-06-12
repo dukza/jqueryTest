@@ -1,16 +1,46 @@
 $small:12px;
 
-$color-body:#3B4859;
+$color-body:#666;
 $color-black:#000;
 $color-dark :#333;
 $color-gray:#9BA3AD;
+
+$color-brand-blue:#4880ee;
+
 $color-black-light:rgba(0,0,0,.1);
 
-$font-family:'Noto Sans KR', Sans-Serif;
+$color-white-lighter:rgba(255,255,255,.05);
+$color-white-light:rgba(255,255,255,.075);
+$color-white-10:rgba(255,255,255,.1);
+$color-white-25:rgba(255,255,255,.25);
+$color-white-5:rgba(255,255,255,.5);
+$color-white-75:rgba(255,255,255,.75);
 
-$font-weight-bold:700;
+$color-light:#F8F9FA;
+$color-lighter:#fafafa;
+$color-white:#fff;
+$color-secondary:#6c757d;
+$color-muted: #999;
+
+$color-danger:rgba(220,53,69,1);
+$color-alert-danger-light:rgba(248,215,218,.2);
+
+$color-alert-warning:rgba(255,243,205,1);
+$color-alert-warning-light:rgba(255,243,205,.2);
+
+$color-info:#007bff;
+$color-brown:#A52A2A;
+$color-form:#CED4DA;
+$color-border:#dee2e6;
+$color-dark-gray:#313131;
+
+$color-alert-primary:rgba(204,229,255,1);
+$color-alert-primary-20:rgba(204,229,255,.2);
+
+$font-weight-bold:800;
 $font-weight-bolder:600;
 $font-weight-normal:500;
+$font-weight-lighter:200;
 $font-weight-light:400;
 
 
@@ -19,3 +49,5 @@ $bg-shadow-md:rgba(9, 30, 66, 0.25) 0px 8px 16px -4px, rgba(9, 30, 66, 0.31) 0px
 
 
 $spacer:1rem;
+
+$font-number:'Roboto', sans-serif;

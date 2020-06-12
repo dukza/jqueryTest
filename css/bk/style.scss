@@ -1,0 +1,49 @@
+@import 'short.scss';
+@import 'common.scss';
+@import 'normalize.css';
+@import 'bootstrap.min.css';
+@import 'all.css';
+@import '../icomoon-hp/style.css';
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap');
+
+//페이지
+#header{
+  .nav-link{
+    //@extend .h9;
+    height: 70px;
+    @extend .d-flex;
+    @extend .align-items-center;
+  }
+}
+#content-tab{
+  .nav-link{
+    @extend .btn-sm;
+    color: $color-body;
+    &:hover{
+      @extend .btn-transparent;
+    }
+  }
+}
+//가이드
+.guide-card{
+  height: 50px;
+  box-shadow: $bg-shadow-xs;
+  transition: box-shadow 0.25s ease-in-out 0s;
+  @extend .border-0;
+  &:hover{
+    box-shadow:$bg-shadow-md;
+  }
+}
+$page-sprint-top:100px;
+#page-sprint{
+  .wrap-data-table{
+    .d-table{
+      height:calc(100vh - $page-sprint-top);
+      .d-cell{
+        height: 100%;
+        @extend .bg-light;
+      }      
+    }
+  }
+}
