@@ -474,6 +474,14 @@
 		"oAP": "/html/bk/tab.html",
 		"oF": 0
 		},
+	"/html/index-1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/index-1.html",
+		"oF": 0
+		},
 	"/html/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -833,6 +841,48 @@
 		"oA": 0,
 		"oAP": "/src/fonts/YouandiModernTR.woff",
 		"oF": 0
+		},
+	"/src/fullPage/examples.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/src/fullPage/examples-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/src/fullPage/examples.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/src/fullPage/examples-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/fullPage/jquery.fullpage.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/src/fullPage/jquery.fullpage-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/src/fullPage/jquery.fullpage.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/src/fullPage/jquery.fullpage-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/src/js/jquery-3.3.1.min.js": {
 		"bF": 0,

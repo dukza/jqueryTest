@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../src/css/common.css">
+        <link rel="stylesheet" href="../src/css/style.css">
+        <link rel="stylesheet" href="../src/css/all.css">
+        <link rel="stylesheet" href="../src/fullPage/fullpage.css">
+        <script type="text/javascript" src="../src/fullPage/fullpage.js"></script>
+        <script type="text/javascript" src="../src/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../src/js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="../src/js/TweenMax.js"></script>
+        <script type="text/javascript" src="../src/js/layout-common.js"></script>
+    </head>    
+    <body>
+        <div class="container-fluid h-100 position-relative" id="js-page">
+            <div class="row h-100">
+                <!-- 글로벌 메뉴 -->
+                <ul class="col-auto d-none d-lg-block list-unstyled bg-white-lighter rounded shadow-lg mb-3 mr-3 position-absolute z-index8 gnb js-aniGnb" style="top: 50vh; right: 0px;margin-top: -66px;min-width: 80px;">
+                    <li><a class="pt-2 pb-2 js-aniGnbLink" href="" data-gnb="content-01" title="컨텐츠 이동">1</a></li>
+                    <li><a class="pt-2 pb-2 js-aniGnbLink" href="" data-gnb="content-02" title="컨텐츠 이동">1</a></li>
+                    <li><a class="pt-2 pb-2 js-aniGnbLink" href="" data-gnb="content-03" title="컨텐츠 이동">1</a></li>
+                    <li><a class="pt-2 pb-2 js-aniTop" href="" ><i class="fal fa-arrow-to-top" title="top"></i> top</a></li>
+                </ul>    
+                <!-- 글로벌 메뉴 -->      
+                <!-- 글로벌 알림 -->
+                <div class="col-auto mb-3 mr-3 position-fixed z-index9 notice js-aniNotice" style="bottom: 0; right: 0px;margin-top: -66px;min-width: 320px;opacity: 0;display: none;">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <img class="" src="" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row justify-content-end">
+                                <button class="btn btn-brand-blue">확인 했어요!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <!-- 글로벌 알림 -->   
+                <!-- 웹 서브 메뉴 -->
+                <div class="col-12 col-lg-2 border-white-10 d-none d-lg-block js-sider">
+                    <div class="row">
+                        <div class="col-12 position-fixed z-index9" style="top: 1rem; bottom: 0px; width: 220px;">
+                            <div class="row">
+                                <div class="col-12 font-weight-bolder text-white">
+                                    제이쿼리테스트                                    
+                                </div>
+                                <div class="col-12 mb-3 mt-3">
+                                    텍스트
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3 position-fixed-lg" style="bottom: 0px;">
+                            1
+                        </div>
+                    </div>
+                </div>
+                <!-- 웹 서브 메뉴 -->
+                <!-- 컨텐츠 -->
+                <div class="col-12 col-lg pt-lg-3 pb-3 ml-auto">
+                    <div class="row">
+                        <div class="col-12 overflow-auto" style="height: 2000px;overflow-x: hidden;">
+                            <div class="row">
+                                <div class="col-12 col-lg-8">
+                                    <div class="row no-gutters">
+                                        <div class="col-12 mb-5" data-gnb-target="content-01">
+                                            1
+                                        </div>
+                                        <div class="col-12 bg-white-10 rounded mb-5 p-2" data-gnb-target="content-02">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    2
+                                                </div>
+                                            </div>
+                                        </div>  
+                                        <div class="col-12 mt-5" data-gnb-target="content-03">
+                                            3
+                                        </div>                                   
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 컨텐츠 -->
+                <!-- 모바일 서브 메뉴 -->
+                <div class="col-12 d-block d-lg-none border-white-top-10 position-fixed z-index9 gnb" style="bottom: 0px;">
+                    <div class="row align-items-center justify-content-center">
+                        <ul class="col-12 d-table">
+                            <li class="d-cell text-center">
+                                <a class="pt-3 pb-3 js-aniGnbLink mobile" href="" data-link="content-01">1</a>
+                            </li>
+                            <li class="d-cell text-center">
+                                <a class="pt-3 pb-3 js-aniGnbLink mobile" href="" data-link="content-02">2</a>
+                            </li>
+                            <li class="d-cell text-center">
+                                <a class="pt-3 pb-3 js-aniGnbLink mobile" href="" data-link="content-03">3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 모바일 서브 메뉴 -->
+            </div>
+        </div>
+        <script type="text/javascript">
+            commonInit('#js-page');
+        </script>           
+    </body>
+    
+</html>
